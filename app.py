@@ -21,7 +21,7 @@ if api_key:
     if mode == "OPENAI":
         model = OpenAIChat(id="gpt-4o", api_key=api_key)
     else:
-        model = Groq(id="groq-llama3", api_key=api_key)
+        model = Groq(id="llama3-8b-8192", api_key=api_key)
     
     # Initialize Web Agent
     web_agent = Agent(
