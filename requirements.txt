@@ -13,3 +13,4 @@ duckduckgo-search
 yfinance 
 sqlalchemy 
 fastapi[standard]
+groq
